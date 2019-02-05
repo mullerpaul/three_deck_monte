@@ -16,6 +16,20 @@ AS
         pi_deck IN deck_type
     ) RETURN deck_type;
 
+    PROCEDURE battle (
+        pi_deck1        IN  deck_type,
+        pi_deck2        IN  deck_type,
+        po_winning_deck OUT NUMBER,
+        po_rounds       OUT NUMBER
+    );
+    
+    PROCEDURE simulation (
+        pi_deck1_color IN VARCHAR2,
+        pi_deck2_color IN VARCHAR2
+    );
+
+    PROCEDURE test_it; 
+
 END war_deck_simulation;
 /
 
