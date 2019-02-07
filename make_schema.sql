@@ -9,6 +9,7 @@ GRANT create session, create type, create synonym, create procedure,
 /
 
 ------ get correct pw and parameters here -----
-connect utplsql/utplsql@orcl
-@/u01/userhome/oracle/utplsql/utPLSQL/source/create_user_grants.sql war_deck
-@/u01/userhome/oracle/utplsql/utPLSQL/source/create_user_synonyms.sql war_deck
+--connect utplsql/utplsql@orcl
+--@/u01/userhome/oracle/utplsql/utPLSQL/source/create_user_grants.sql war_deck
+--@/u01/userhome/oracle/utplsql/utPLSQL/source/create_user_synonyms.sql war_deck
+

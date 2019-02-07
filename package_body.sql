@@ -192,7 +192,9 @@ IS
         simulation('blue','black');
         
         /* lets see what this does! */
-        simulation('red','red');
+        /* simulation('red','red');
+           It didn't work as expected.  Since we didn't implement a case for ties, and you get
+           a lot of ties in this case, these results were way off  */
     
     END test_it;
 
